@@ -67,7 +67,7 @@ ggplot(data = dati_tonni)+
 ggplot(data = dati_tonni)+
   geom_bar(
     aes(x=lunghezza_cl,
-        fill=SESSO), #LOCALITÀ
+        fill=SESSO), #LOCALITï¿½
     position = "stack", #dodge #fill
     col="black")+
   labs(x="Lunghezza in classi",
@@ -80,7 +80,7 @@ ggplot(data = dati_tonni)+
 ggplot(data = dati_tonni)+
   geom_bar(
     aes(x=lunghezza_cl,
-        fill=LOCALITÀ), #LOCALITÀ
+        fill=LOCALITï¿½), #LOCALITï¿½
     position = "stack", #dodge #fill 
     col="black")+
   labs(x="Lunghezza in classi",
